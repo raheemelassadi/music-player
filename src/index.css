@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./assets/bg.jpg");
+}
+
+img {
+  border-radius: 50%;
+}
+
+#reverse {
+  transform: scaleX(-1);
+}
+
+.h-1 {
+  background-color: #e5e7eb;
+  border-radius: 50px;
+}
+
+#progress-timer {
+  background-color: #c93b76;
+}
+
+.justify-between > p {
+  text-shadow: rgba(77, 85, 98, 1) 0px 0px 12px;
+}
+
+.bg-pink {
+  box-shadow: -6px -2px 50px 6px rgba(201, 59, 118, 1);
+}
+
+.player {
+  box-shadow: -2px -2px 14px -1px rgba(201, 59, 118, 1);
+}
+
+#search {
+  background: transparent;
+  border-bottom: 3px solid #e5e7eb;
+  caret-color: #e5e7eb;
+  caret-shape: underscore;
+}
+
+#search:active,
+#search:focus {
+  border: none;
+  outline: none;
+}
